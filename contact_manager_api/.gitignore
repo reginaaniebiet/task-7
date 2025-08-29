@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Local env
+.env
+
+# DB / backups
+*.db
+*.sqlite3
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uvicorn logs
+uvicorn*.log
