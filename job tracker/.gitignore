@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Local env/config
+.env
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Pyproject/poetry extras
+.poetry/
+
+# Coverage / test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uvicorn logs
+uvicorn*.log
